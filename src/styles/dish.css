@@ -1,0 +1,19 @@
+h2 {
+  text-decoration: underline;
+  text-align: justify;
+}
+p {
+  text-align: start;
+}
+.small-text {
+  font-size: small;
+}
+.dish-card {
+  border-radius: 5px;
+  background-color: rgb(75, 75, 75);
+  padding: 15px;
+}
+.kategori {
+  text-transform: uppercase;
+  font-size: smaller;
+}

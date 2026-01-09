@@ -5,17 +5,55 @@
 #meny-kort {
   display: flex;
   flex-direction: column;
+  /* display: grid; */
   justify-content: center;
   align-items: center;
 
   border-radius: 2%;
-  border: dashed darkgrey 0.5rem;
+  /* border: dashed darkgrey 0.5rem; */
 }
 #dish {
+  max-width: 1200px;
+
   display: grid;
-  max-width: 500px;
   grid-template-columns: repeat(5, 1fr);
+
+  margin: 0 auto;
+  padding: 24px;
   gap: 10px;
 
-  border: dashed darkgrey 0.1rem;
+  /* border: dashed darkgrey 0.1rem; */
+}
+
+/* 1024 px, tablet size */
+@media screen and (max-width: 1024px) {
+  #meny-kort {
+    max-width: 900px;
+    padding: 20px;
+  }
+  #dish {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+/* 768 px, default mobile size */
+@media screen and (max-width: 768px) {
+  #meny-kort {
+    max-width: 100%;
+    padding: 16px;
+  }
+  #dish {
+    grid-template-columns: repeat(3, auto);
+    margin: 10px 5px 10px 8px;
+  }
+}
+/* half of default desktop */
+@media screen and (max-width: 600px) {
+  #meny-kort {
+    padding: 14px;
+  }
+  #dish {
+    grid-template-columns: repeat(2, auto);
+    margin: 7px 8px 7px 11px;
+    padding-right: 12px;
+  }
 }
