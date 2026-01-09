@@ -9,6 +9,7 @@
   justify-content: center;
   align-items: center;
 
+  /* used the border when i tried to measure the sizing, not a part of the final styling */
   border-radius: 2%;
   /* border: dashed darkgrey 0.5rem; */
 }
@@ -22,6 +23,7 @@
   padding: 24px;
   gap: 10px;
 
+  /* used the border when i tried to measure the sizing, not a part of the final styling */
   /* border: dashed darkgrey 0.1rem; */
 }
 

@@ -1,5 +1,6 @@
 import "../styles/dish.css";
 
+// contains the setup for each dish. see meny.jsx for all dishes
 const Dish = ({id, tittel, kategori, ingredienser, pris}) => {
   return (
     <div className="dish-card border">
