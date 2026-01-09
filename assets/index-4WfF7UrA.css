@@ -1,1 +1,0 @@
-:root{text-align:center}#meny-kort{display:flex;flex-direction:column;justify-content:center;align-items:center;border-radius:2%;border:dashed darkgrey .5rem}#dish{display:grid;max-width:500px;grid-template-columns:repeat(5,1fr);gap:10px;border:dashed darkgrey .1rem}
